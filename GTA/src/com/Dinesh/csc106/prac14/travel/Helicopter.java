@@ -1,39 +1,14 @@
 package com.Dinesh.csc106.prac14.travel;
 
 public class Helicopter extends Other_vehicle{
-	
-	private String name;
-	private String role;
-	
-	
-	public Helicopter(String name, String role) {
-		super();
-		this.name = name;
-		this.role = role;
-	}
-	
-	
-	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getRole() {
-		return role;
-	}
-	public void setRole(String role) {
-		this.role = role;
-	}
 
-
-
-	@Override
-	public void drive() {
-		// TODO Auto-generated method stub
+	public Helicopter(String other_vehicle_name, String Other_vehicle_role) {
 		
+		super();
+		// TODO Auto-generated constructor stub
 	}
+	
+
 	
 
 }

@@ -2,22 +2,14 @@ package com.Dinesh.csc106.prac14.ppl;
 
 public class Thief extends Character{
 	
-	private String name;
-	private String role;
+
 	private String speed;
 
 	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getRole() {
-		return role;
-	}
-	public void setRole(String role) {
-		this.role = role;
+
+	public Thief(String character_name, String character_role,String speed) {
+		super();
+		this.speed=speed;
 	}
 	public String getSpeed() {
 		return speed;

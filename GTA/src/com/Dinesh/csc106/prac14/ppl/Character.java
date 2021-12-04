@@ -1,7 +1,7 @@
 package com.Dinesh.csc106.prac14.ppl;
 import com.everything.*;
 
-public abstract class Character implements world {
+public abstract class Character {
 	
 	private String character_name;
 	private String charater_role;
